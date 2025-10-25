@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -90,7 +90,7 @@
       <h3>President of Nguyễn Kim (2024 – Present)</h3>
       <ul>
         <li>Leading the company’s transformation into a digital-first omnichannel retailer</li>
-        <li>Achieved +10%–50% YoY sales uplift from store renovations</li>
+        <li>Achieved +10% to +50% YoY sales uplift from store renovations</li>
         <li>Unified eCommerce and Marketing into a single Omnichannel team</li>
         <li>Top 1 Home Appliance Shop on Shopee Vietnam</li>
         <li>Reduced Head Office cost by 15% while doubling store profitability</li>
