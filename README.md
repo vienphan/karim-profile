@@ -87,7 +87,7 @@
 
 <body>
   <header>
-    <img src="https://github.com/vienphan/karim-profile/blob/b2ded14ce14a0c741bbf6f9279092c0cf025e27c/Mr.%20Karim%20Profile%20Pic.jpg" alt="Karim Noui Profile Photo">
+    <img src="https://raw.githubusercontent.com/vienphan/karim-profile/refs/heads/main/Mr.%20Karim%20Profile%20Pic.jpg" alt="Karim Noui Profile Photo">
     <h1>Karim Noui</h1>
     <h2>President of Nguyễn Kim | Central Retail Vietnam</h2>
     <p>📍 Ho Chi Minh City, Vietnam<br>
