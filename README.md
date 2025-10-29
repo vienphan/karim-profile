@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -14,49 +13,71 @@
       background-color: #f8f9fa;
       line-height: 1.6;
     }
+
+    /* === BLUE HEADER WITH PHOTO === */
     header {
-      background: linear-gradient(135deg, #111, #444);
+      background: linear-gradient(135deg, #004aad, #007bff);
       color: white;
       text-align: center;
-      padding: 80px 20px;
+      padding: 60px 20px 80px;
+      position: relative;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
     }
     header h1 {
       font-size: 2.5rem;
-      margin: 0;
+      margin: 10px 0 0;
     }
     header h2 {
       font-weight: 400;
       font-size: 1.2rem;
       margin-top: 10px;
-      color: #ccc;
+      color: #dce8ff;
     }
+
     main {
       max-width: 900px;
       margin: 40px auto;
       padding: 0 20px;
     }
+
     section {
       margin-bottom: 60px;
     }
+
     h2 {
-      border-bottom: 3px solid #e63946;
+      border-bottom: 3px solid #007bff;
       padding-bottom: 8px;
       color: #111;
       margin-bottom: 15px;
     }
+
     ul {
       padding-left: 20px;
     }
+
     li {
       margin-bottom: 6px;
     }
+
     a {
-      color: #0077b5;
+      color: #004aad;
       text-decoration: none;
     }
+    a:hover {
+      text-decoration: underline;
+    }
+
     footer {
-      background: #111;
-      color: #ccc;
+      background: #004aad;
+      color: #dce8ff;
       text-align: center;
       padding: 30px 10px;
       font-size: 0.9rem;
@@ -66,6 +87,7 @@
 
 <body>
   <header>
+    <img src="https://github.com/vienphan/karim-profile/blob/b2ded14ce14a0c741bbf6f9279092c0cf025e27c/Mr.%20Karim%20Profile%20Pic.jpg" alt="Karim Noui Profile Photo">
     <h1>Karim Noui</h1>
     <h2>President of Nguyễn Kim | Central Retail Vietnam</h2>
     <p>📍 Ho Chi Minh City, Vietnam<br>
@@ -73,7 +95,7 @@
   </header>
 
   <main>
-    <section>
+     <section>
       <h2>Executive Summary</h2>
       <p>Visionary retail leader with <strong>25+ years of experience across Asia</strong> — Vietnam, Thailand, Qatar, and Mexico. 
       Karim has built a reputation for transforming retail businesses into customer-centric omnichannel organizations by uniting 
