@@ -246,7 +246,7 @@
     <section>
       <h2>Signature Projects</h2>
       <ul>
-        <li>Nguyễn Kim 2025 Transformation – Omnichannel strategy</li>
+        <li><a href="https://vienphan.github.io/karim-nguyenkim/" target="_blank">Nguyễn Kim 2025 Transformation – Omnichannel strategy</a></li>
         <li>AI-powered brand zones with Samsung, LG, Toshiba, and Sony</li>
         <li>Tops Market rebrand as an upscale urban supermarket</li>
         <li>Casino & WH Smith franchise launches in Qatar</li>
@@ -255,7 +255,7 @@
   </main>
 
   <footer>
-    <p>© 2025 Karim Noui | Built with ❤️ on GitHub Pages</p>
+    <p>© 2025 Karim Noui | Transforming retail with purpose, people, and passion.</p>
   </footer>
 </body>
 </html>
