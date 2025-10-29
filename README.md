@@ -5,6 +5,7 @@
   <title>Karim Noui | Retail Leadership Profile</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
   <style>
     body {
       font-family: 'Inter', sans-serif;
@@ -14,34 +15,105 @@
       line-height: 1.6;
     }
 
-    /* === BLUE HEADER WITH PHOTO === */
+    /* === PREMIUM BLUE HEADER WITH BACKGROUND IMAGE === */
     header {
-      background: linear-gradient(135deg, #004aad, #007bff);
-      color: white;
-      text-align: center;
-      padding: 60px 20px 80px;
       position: relative;
-    }
-    header img {
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      border-radius: 50%;
-      border: 4px solid white;
-      margin-bottom: 20px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.3);
-    }
-    header h1 {
-      font-size: 2.5rem;
-      margin: 10px 0 0;
-    }
-    header h2 {
-      font-weight: 400;
-      font-size: 1.2rem;
-      margin-top: 10px;
-      color: #dce8ff;
+      background: linear-gradient(135deg, rgba(0,74,173,0.9), rgba(0,123,255,0.9));
+      color: white;
+      padding: 80px 40px;
+      overflow: hidden;
     }
 
+    /* Optional blurred background image overlay */
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-image: url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1500&q=80');
+      background-size: cover;
+      background-position: center;
+      opacity: 0.25;
+      z-index: 0;
+      filter: blur(2px);
+    }
+
+    .header-container {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 1000px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .profile-photo img {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+      background-color: white;
+    }
+
+    .profile-info {
+      text-align: left;
+      color: white;
+      max-width: 600px;
+    }
+
+    .profile-info h1 {
+      font-size: 2.2rem;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    .profile-info h2 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      border-top: 1px solid rgba(255,255,255,0.6);
+      border-bottom: 1px solid rgba(255,255,255,0.6);
+      padding: 10px 0;
+      margin: 18px 0;
+      color: #eaf2ff;
+    }
+
+    .profile-info p {
+      margin: 6px 0;
+      font-size: 1rem;
+    }
+
+    .profile-info i {
+      margin-right: 8px;
+      color: #ff4f4f;
+    }
+
+    .profile-info a {
+      color: #dce8ff;
+      text-decoration: none;
+    }
+    .profile-info a:hover {
+      text-decoration: underline;
+    }
+
+    /* === Responsive === */
+    @media (max-width: 700px) {
+      .header-container {
+        flex-direction: column;
+        text-align: center;
+      }
+      .profile-info {
+        text-align: center;
+      }
+      .profile-info h2 {
+        border: none;
+      }
+    }
+
+    /* === MAIN CONTENT === */
     main {
       max-width: 900px;
       margin: 40px auto;
@@ -71,6 +143,7 @@
       color: #004aad;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
@@ -87,15 +160,21 @@
 
 <body>
   <header>
-    <img src="https://raw.githubusercontent.com/vienphan/karim-profile/refs/heads/main/Mr.%20Karim%20Profile%20Pic.jpg" alt="Karim Noui Profile Photo">
-    <h1>Karim Noui</h1>
-    <h2>President of Nguyễn Kim | Central Retail Vietnam</h2>
-    <p>📍 Ho Chi Minh City, Vietnam<br>
-       📧 <a href="mailto:k.noui@outlook.com" style="color:white;">k.noui@outlook.com</a></p>
+    <div class="header-container">
+      <div class="profile-photo">
+        <img src="https://raw.githubusercontent.com/vienphan/karim-profile/refs/heads/main/Mr.%20Karim%20Profile%20Pic.jpg" alt="Karim Noui">
+      </div>
+      <div class="profile-info">
+        <h1>Karim Noui</h1>
+        <h2>President of Nguyễn Kim | Central Retail Vietnam</h2>
+        <p><i class="fa-solid fa-location-dot"></i> Ho Chi Minh City, Vietnam</p>
+        <p><i class="fa-solid fa-envelope"></i> <a href="mailto:k.noui@outlook.com">k.noui@outlook.com</a></p>
+      </div>
+    </div>
   </header>
 
   <main>
-     <section>
+    <section>
       <h2>Executive Summary</h2>
       <p>Visionary retail leader with <strong>25+ years of experience across Asia</strong> — Vietnam, Thailand, Qatar, and Mexico. 
       Karim has built a reputation for transforming retail businesses into customer-centric omnichannel organizations by uniting 
